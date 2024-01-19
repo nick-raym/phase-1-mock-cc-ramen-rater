@@ -28,6 +28,12 @@ header {
   max-width: calc(100vw - 2rem);
 }
 
+#delete-button{
+  max-width: 30px;
+  max-height: 30px;
+  margin-bottom: 315px;
+}
+
 #ramen-menu img {
   flex: 0 1 auto;
   height: 150px;
@@ -99,4 +105,9 @@ form h4 {
   margin: 0.5rem 0;
   color: white;
   background-color: black;
+}
+
+.deleteMe{
+  max-width: 0px;
+  max-height: 0px;
 }
